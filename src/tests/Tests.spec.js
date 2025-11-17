@@ -45,6 +45,6 @@ export default function () {
 
   check(res, {
     'GET Posts - Status 200': () => res.status === OK,
-    'Retornou dados': () => res.json().length > 0
+    'retornou dados': () => res.json().length > 0
   });
 }
